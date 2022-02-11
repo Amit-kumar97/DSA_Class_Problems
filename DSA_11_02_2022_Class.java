@@ -1,5 +1,21 @@
 package LinkedLists;
 
+/*-------------Problem:
+  Take a String input Array From CommandLine Argument like {"12345","-67823","00123"...}.
+  Convert each element of argumented string in its code form which is as follows:
+  if number is Positive then Starts with : "P" (As String)
+  Else starts with : "N";
+  
+  Also check each digit of number is even or not,
+  if digit is Even than add "e" in the previous string,
+  else add "o" in the existing String.
+  Add this newly formed code of String in the Linked List and 
+  Display the output of given in a coded form.
+  
+  Input: {"12345","-67823","00123"...}
+  Output: "Poeoeo","Neoeeo","Poeo" (Ignore 0s in the Starting in a Number)
+  
+ */
 class Node11
 {
     String data;
