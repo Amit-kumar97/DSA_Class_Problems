@@ -1,6 +1,25 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+write a program to find the pair of numbers whose product is maximum and minimum among all numbers of 
+Array. After finding, add these pair of numbers in the stack with linked list and then print it on console.
+Handle all possible type of Exception raise during the program.
+Don't use predefined collection library methods.
+Take size and input from user.
+if size is 1 or 0
+print: Not enough size available of Array.
+else:
+print: values
+
+input:
+size=7
+Array elements= {12,23,4,5,6,44}
+output:
+23 44
+4  5
+ */
+
 class Node1
 {
     int data1;
@@ -89,7 +108,9 @@ public class DSA_14_02_2022_Class
             push(ar[size-1],ar[size-2]);
         }
     }
+    
     static Node1 top;
+    
     public  static void push(int data, int data2)
     {
         Node1 newnode = new Node1(data,data2);
@@ -97,6 +118,7 @@ public class DSA_14_02_2022_Class
         newnode.next = top;
         top = newnode;
     }
+    
     public static void display()
     {
         if (top==null)
