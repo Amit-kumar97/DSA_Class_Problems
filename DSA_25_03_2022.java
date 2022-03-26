@@ -193,7 +193,7 @@ public class DSA_25_03_2022 {
         display();
         System.out.println("Element exist or not:"+search(14));
         System.out.println("Add a new number:");
-        add(15);
+        add(16);
        // System.out.println("Remove a Number:");
     //    remove(12);
 
